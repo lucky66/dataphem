@@ -433,7 +433,26 @@
 
 
 /*** Project Start ***/
+.logo-tile {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
 
+.logo {
+    border: 1px solid #000000;
+}
+
+.logo img {
+    height: 200px;
+	width: 200px;
+	margin: 20px;
+	transition: all 1s;
+}
+
+.logo img:hover {
+	transform: scale(1.1);
+}
 .project-img {
     position: relative;
     padding: 15px;
