@@ -368,6 +368,48 @@
 
 /*** Carousel End ***/
 
+/* Area of Focus */
+
+.focus-tile {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: start; /* Keep items close to the left */
+    align-items: center;
+}
+
+.ms {
+    grid-column: 1/4;
+}
+
+.vs {
+    grid-column: 2/4;
+}
+
+.focus-box {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.focus-box:hover {
+}
+
+.focus-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.5s ease;
+}
+
+.focus-box:hover img {
+    transform: scale(1.1); 
+}
+
+/* Area of Focus End */
 
 /*** Services Start ***/
 
@@ -453,6 +495,7 @@
 .logo img:hover {
 	transform: scale(1.1);
 }
+
 .project-img {
     position: relative;
     padding: 15px;
