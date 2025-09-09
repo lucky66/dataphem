@@ -200,14 +200,15 @@
 }
 
 .carousel-control-prev {
-    width: 90px;
-    height: 60px;
+    width: 60px;
+    height: 42px;
     position: absolute;
     top: 50%;
     left: 0;
     background: var(--bs-primary);
     border-radius: 0 50px 50px 0;
     opacity: 1;
+    padding: 15px;
 }
 
 .carousel-control-prev:hover {
@@ -216,14 +217,15 @@
 }
 
 .carousel-control-next {
-    width: 90px;
-    height: 60px;
+    width: 60px;
+    height: 42px;
     position: absolute;
     top: 50%;
     right: 0;
     background: var(--bs-primary);
     border-radius: 50px 0 0 50px;
     opacity: 1;
+    padding: 15px;
 }
 
 .carousel-control-next:hover {
@@ -426,6 +428,9 @@
     position: relative;
 }
 
+.services-content {
+    cursor: pointer;
+}
 
 .services-content::after {
     position: absolute;
@@ -488,6 +493,7 @@
 .logo {
     border: 1px solid #645c5c;
 }
+
 
 .logo img {
     height: 200px;
