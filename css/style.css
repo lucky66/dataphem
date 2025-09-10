@@ -488,7 +488,7 @@
 .logo-tile {
     display: flex;
     flex-wrap: wrap;
-	justify-content: ce;
+	justify-content: center;
     margin: auto;
 }
 
