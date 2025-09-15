@@ -386,6 +386,19 @@
     grid-column: span 2;
 }
 
+@media only screen and (max-width:600px) {
+    .ms {
+    grid-column: span 2;
+}
+.fn {
+    grid-column: span 2;
+}
+    .vs {
+    grid-column: span 2;
+}
+
+}
+
 .focus-box {
     display: flex;
     height: 200px;
